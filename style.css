@@ -1,0 +1,28 @@
+.showcase, .biography{
+  height: 100vh;
+}
+.showcase{
+  background: url('img/header-bg.png');
+}
+.biography{
+  background: url('img/biography-bg.png');
+}
+.showcase{
+  background: url('img/header-bg.png');
+}
+.latest-work{
+  /* height: 50vh; */
+  background-image: url('img/latest-work-bg.png');
+}
+
+.latest-work .col-4 img{
+  transition: 0.3s ease-in-out;
+}
+.latest-work .col-4 img:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+}
+.footer{
+  height: 100vh;
+  background-image: url('img/footer-bg.png');
+}
